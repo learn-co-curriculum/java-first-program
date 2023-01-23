@@ -70,8 +70,6 @@
 - An instruction is a command for the computer. In Java, we call these
   instructions **statements**. Most statements end with a `;`. There are notable
   exceptions, and we will cover them all in detail in upcoming lessons.
-- A method is a grouping of statements. We use methods to organize statements
-  that belong together.
 - A method contains a **block**, and a block contains a grouping of statements.
   We use methods to organize statements that belong together.
   - Consider for example that you wanted to explain to someone how to make
