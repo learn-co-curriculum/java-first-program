@@ -9,19 +9,19 @@
 ## Executing a simple Java program
 
 - Launch IntelliJ Community Edition.
-    - When you first open IntelliJ Community Edition after installing it, you will
+  - When you first open IntelliJ Community Edition after installing it, you will
       see the following screen:
 
       ![Welcome to IntelliJ ](https://curriculum-content.s3.amazonaws.com/java-mod-1/your-first-java-program/Welcome-to-IntelliJ.png)
 
 - Click "New Project".
-    - When you do so, you will be prompted with a window like this:
+  - When you do so, you will be prompted with a window like this:
 
       ![New Project](https://curriculum-content.s3.amazonaws.com/java-mod-1/your-first-java-program/intellij-new-project-java-17.png)
 
     - Let's create a new Java project!
-        - Ensure that "New Project" is highlighted in the left-hand sidebar menu.
-        - For "Name:" enter in "first-project". This will be the name of your new
+      - Ensure that "New Project" is highlighted in the left-hand sidebar menu.
+      - For "Name:" enter in "first-project". This will be the name of your new
           Java project.
         - For "Location:" select the directory you'd like to put your project in.
           This is where the project will live in your computer's file system.
@@ -67,21 +67,23 @@
 
 ### Explanation
 
-- An instruction is a command for the computer. In Java, most instructions end
-  with a `;`. There are notable exceptions, and we will cover them all in detail
-  in upcoming units.
-- A method is a grouping of instructions. We use methods to organize instructions
+- An instruction is a command for the computer. In Java, we call these
+  instructions **statements**. Most statements end with a `;`. There are notable
+  exceptions, and we will cover them all in detail in upcoming lessons.
+- A method is a grouping of statements. We use methods to organize statements
   that belong together.
-    - Consider for example that you wanted to explain to someone how to make
+- A method contains a **block**, and a block contains a grouping of statements.
+  We use methods to organize statements that belong together.
+  - Consider for example that you wanted to explain to someone how to make
       breakfast.
-    - You may need to provide that person instructions on how to make toast, how
+  - You may need to provide that person instructions on how to make toast, how
       to make eggs and how to make a smoothie.
-    - Since you still want to be able to say "make me breakfast, please", and have
+  - Since you still want to be able to say "make me breakfast, please", and have
       that person understand that it means "make toast", "make eggs", and "make a
-      smoothie", you would group all those individual instructions in a single
+      smoothie", you would group all those individual statements in a single
       method.
-    - That method might be called `makeBreakfast()`
-    - We will cover the exact syntax for a method and for the instructions inside
+  - That method might be called `makeBreakfast()`.
+  - We will cover the exact syntax for a method and for the block inside
       that method in a later unit.
 - A class is a grouping of methods. In our previous `makeBreakfast()` example,
   we might have a class that represents a chef, and that class may contain the
@@ -89,13 +91,13 @@
   and `makeDinner()`.
 - Java comes with some pre-defined methods that we get to use to access existing
   functionality.
-    - For example, Java gives us pre-defined methods to print characters to the
+  - For example, Java gives us pre-defined methods to print characters to the
       screen, perform standard math operations, or even send data over a network
       connection.
 - Dot notation: access a specific method inside a specific class (we will
   discuss the difference between a class and an object in a later unit).
 - Example: `System.out.println()`.
-    - `System` is a class that comes with the JDK.
+  - `System` is a class that comes with the JDK.
     - `out` is an object in that class.
     - `println` is a method on that object.
     - The `()` allow us to pass information to the method.
@@ -157,3 +159,9 @@ IntelliJ. But now we should see the Java Visualizer plugin that we installed!
 
 Great job on running your first program! Over the next few lessons we'll learn
 more about how the code is run and basic Java syntax.
+
+## References
+
+- [Java Docs on MethodBody](https://docs.oracle.com/javase/specs/jls/se17/html/jls-8.html#jls-MethodBody)
+- [Java Docs on Block](https://docs.oracle.com/javase/specs/jls/se17/html/jls-14.html#jls-Block)
+- [Java Docs on Statement](https://docs.oracle.com/javase/specs/jls/se17/html/jls-14.html#jls-Statement)
