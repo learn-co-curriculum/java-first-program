@@ -17,7 +17,7 @@
 - Click "New Project".
   - When you do so, you will be prompted with a window like this:
 
-      ![New Project](https://curriculum-content.s3.amazonaws.com/java-mod-1/your-first-java-program/intellij-new-project-java-17.png)
+    ![New Project](https://curriculum-content.s3.amazonaws.com/java-mod-1/your-first-java-program/intellij-new-project-java-17.png)
 
     - Let's create a new Java project!
       - Ensure that "New Project" is highlighted in the left-hand sidebar menu.
