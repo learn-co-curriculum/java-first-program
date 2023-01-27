@@ -18,24 +18,24 @@
   - When you do so, you will be prompted with a window like this:
 
     ![New Project](https://curriculum-content.s3.amazonaws.com/java-mod-1/your-first-java-program/intellij-new-project-java-17.png)
-
-    - Let's create a new Java project!
-      - Ensure that "New Project" is highlighted in the left-hand sidebar menu.
-      - For "Name:" enter in "first-project". This will be the name of your new
-          Java project.
-        - For "Location:" select the directory you'd like to put your project in.
-          This is where the project will live in your computer's file system.
-        - Leave "Create Git repository" unchecked. But know that by checking this
-          box, it will create a new Git repository for you.
-        - Select "Java" for the language.
-        - Select "Maven" for the build system. You will learn more about build
-          systems a little later on.
-        - Select the JDK that you installed in the previous lesson when setting up
-          your environment. This should be JDK 17.
-        - Ensure that the "Add Sample Code" checkbox is checked. This will add a
-          `Main.java` file to the project. For the purposes of this lesson, we will
-          have this box checked. But in the future, you may feel free to uncheck
-          this box if you do not want any sample code added to your new project.
+  
+  - Let's create a new Java project!
+    - Ensure that "New Project" is highlighted in the left-hand sidebar menu.
+    - For "Name:" enter in "first-project". This will be the name of your new
+        Java project.
+      - For "Location:" select the directory you'd like to put your project in.
+        This is where the project will live in your computer's file system.
+      - Leave "Create Git repository" unchecked. But know that by checking this
+        box, it will create a new Git repository for you.
+      - Select "Java" for the language.
+      - Select "Maven" for the build system. You will learn more about build
+        systems a little later on.
+      - Select the JDK that you installed in the previous lesson when setting up
+        your environment. This should be JDK 17.
+      - Ensure that the "Add Sample Code" checkbox is checked. This will add a
+        `Main.java` file to the project. For the purposes of this lesson, we will
+        have this box checked. But in the future, you may feel free to uncheck
+        this box if you do not want any sample code added to your new project.
     - Click "Create" to create the new Java project. Give IntelliJ a couple of
       minutes to create and load your new project.
 - On the left-hand side, you will see the **project view** window. This shows
